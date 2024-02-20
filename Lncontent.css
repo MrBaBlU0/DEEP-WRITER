@@ -1,0 +1,834 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: white;
+    margin:0;
+    padding:0;
+    font-family: "Courier New", monospace;
+    box-sizing:border-box;
+}
+header{
+    width: 100%;
+    height:55px;
+    background: #000000;
+}
+h3{
+    color:white;
+    padding: 18px 0 0 200px;
+}
+#check{
+    display:none;
+}
+.menu{
+    display:none;
+    padding-left:15px;
+    width: 100%;
+    height: auto;
+    background: #0d0d0d;
+}
+.menu ul{
+    list-style:none;
+}
+.menu ul li{
+    color:white;
+    line-height: 28px;
+}
+.menu ul li a{
+    text-decoration:none;
+    color:white;
+}
+.menu ul li:hover{
+    background-color: #0d0d0d;
+    border-radius:3px;
+}
+label #btn{
+    margin:18px 0 0 15px;
+    float:left;
+    cursor:pointer;
+    color:white;
+    font-size:18px;
+}
+#check:checked ~ .menu{
+    display:block;
+}
+.content{
+    border-radius:3px;
+    box-shadow: 0px 0px 8px #0d0d0d;
+    overflow:hidden;
+    width: 350px;
+    height: auto;
+    font-weight:bold;
+    margin: 20px auto 10px auto;
+    padding: 10px 0px 10px 0px;
+    background: #f2f2f2;
+    border: 1px solid #0d0d0d;
+} 
+h4{
+    display:block;
+    text-align:center;
+    margin: 0 0 10px 0;
+    font-size:18px;
+    width: 250px;
+    height: auto;
+    font-size:18px;
+    margin: 10px auto 20px auto;
+    border-bottom:2px solid #0d0d0d;
+}
+.image-content{
+    display:block;
+    height: 400px;
+    width: 300px;
+    margin: 0 auto 0 auto;
+    border-radius:3px;
+    border: 1px solid #0d0d0d;
+    box-shadow: 0px 0px 8px #0d0d0d;
+}
+#p1{
+    display:inline-block;
+    margin: 30px 0 10px 20px;
+    width: 118px;
+    height: auto;
+    border-bottom:1px solid black;
+}
+#p2{
+    display:inline-block;
+    margin: 30px 0 10px 20px;
+    width: 195px;
+    height: auto;
+    border-bottom:1px solid black;
+}
+#p3{
+    display:inline-block;
+    margin: 30px 0 10px 20px;
+    width: 140px;
+    height: auto;
+    border-bottom:1px solid black;
+}
+p{
+    margin: 20px 10px 15px 20px;
+}
+#p4{
+    display:inline-block;
+    margin: 10px 0 10px 20px;
+    width: 100px;
+    height: auto;
+    border-bottom:1px solid #0d0d0d;
+}
+.notes{
+    width: 350px;
+    height: auto;
+    margin: 10px auto 50px auto;
+    border-radius:3px;
+    box-shadow: 5px 5px 8px #0d0d0d;
+    overflow:hidden;
+    background: #f2f2f2;
+    font-weight:bold;
+    padding: 10px 0 10px 0;
+    border: 1px solid #0d0d0d;
+}
+.content a{
+    color:black;
+}
+.notes a{
+    color:black;
+}
+#notes-title{
+    width: 60px;
+}
+#notes1{
+    margin-bottom:20px;
+}
+/* Date A Live Encore */
+#encore{
+    width: 200px;
+}
+/* Date A Bullet */
+#bullet{
+    width: 250px;
+}
+/* Wandering Witch: The Journey Of Elaina */
+#elaina{
+    width: 250px;
+}
+/* Otherside Picnic */
+#otherside-picnic{
+    width: 180px;
+}
+/* In Another World With My Smartphone */
+#smartphone{
+    width: 250px;
+}
+/* The Angel Next Door Spoils Me Rotten */
+#angel-next-door{
+    width: 250px;
+}
+/* Death's Daughter And The Ebony Blade */
+#deaths-daughter{
+    width: 240px;
+}
+/* From Toxic Classmate To Girlfriend Goals */
+#toxic-classmate{
+    width: 230px;
+}
+/* Have A Cup Of Coffee After School, In The Fantasy World Café */
+#coffee-after-school{
+    width: 220px;
+}
+/* Goodbye Otherworld, See You Tomorrow */
+#goodbye-otherworld{
+    width: 210px;
+}
+/* A Very Popular Idol Classmate Has Taken a Liking to Me, A Person Who Doesn’t Want to Work for Whole Life */
+#very-popular-idol{
+    width: 260px;
+}
+/* After A Heartbreak, My Bitter Childhood Friend Is Now Sweet Like Sugar */
+#after-a-heartbreak{
+    width: 280px;
+}
+/* After My First Love Who is My Classmate Became My Family, My Childhood Friend Became Really Sweet to Me */
+#after-my-first-love{
+    width: 300px;
+}
+/* Angel Only Drinks Soda */
+#angel-soda{
+    width: 245px;
+}
+/* A Gal Who Looks Good in Apron is Unfair */
+#gal-apron{
+    width: 230px;
+}
+/* A Leisurely Trip to Another World of the Reincarnated Great Saint */
+#leisurely-trip{
+    width: 270px;
+}
+/* A Mysterious Job Called Oda Nobunaga */
+#oda-nobunaga{
+    width: 220px;
+}
+/* A New Life With An Elf Wife! */
+#elf-wife{
+    width: 220px;
+}
+/* Now I'm a Demon Lord! Happily Ever After with Monster Girls in My Dungeon */
+#im-a-demon-lord{
+    width: 300px;
+}
+/* Please Leave Me Alone */
+#leave-me-alone{
+    width: 240px;
+}
+/* A Tale Of The Secret Saint */
+#secret-saint{
+    width: 300px;
+}
+/* A Returnee Classmate, Number One On The List Of People I Want To Kill, Became My Wife */
+#returnee{
+    width: 250px;
+}
+/* A Late-Start Tamer's Laid-back Life */
+#late-start{
+    width: 220px;
+}
+/* Adachi And Shimamura */
+#adachi{
+    width: 220px;
+}
+/* Amazing Village Building */
+#village-building{
+    width: 280px;
+}
+/* Asahina Wakaba to Marumaru na Kareshi */
+#asahina{
+    width: 220px;
+}
+/* Backstabbed in a Backwater Dungeon - My Trusted Companions Tried to Kill Me, But Thanks to the Gift of an Unlimited Gacha I Got LVL 9999 Friends and Am Out For Revenge on My Former Party Members and the World */
+#unlimited-gacha{
+    width: 300px;
+}
+/* Bizarre Love Triangle – The Distance Between us in this Triangle is a Convergent Zero */
+#bizarre-love{
+    width: 250px;
+}
+/* Chitose Is In The Ramune Bottle */
+#chitose{
+    width: 200px;
+}
+/* Combatants Will Be Dispatched! */
+#combatants{
+    width: 220px;
+}
+/* Date A Live Game Novels */
+#dal-game-novels{
+    width: 280px;
+}
+/* Didn't I Say Make My Abilities Average?! */
+#abilities-average{
+    width: 250px;
+}
+/* Dragon And Ceremony */
+#dragon-and-ceremony{
+    width: 230px;
+}
+/* Endo And Kobayashi Live! */
+#endo-and-kobayashi{
+    width: 230px;
+}
+/* Former Noble And Single Mother */
+#former-noble{
+    width: 250px;
+}
+/* Fake Saint of the Year */
+#fake-saint{
+    width: 250px;
+}
+/* Fantasy Inbound */
+#fantasy-inbound{
+    width: 190px;
+}
+/* For Some Reason, A Gal In My Class Became Friends With My Step-sister */
+#gal-in-my-class{
+    width: 280px;
+}
+/* Free Life Fantasy Online */
+#free-life{
+    width: 270px;
+}
+/* Genjitsu de Rabukome Dekinai to Dare ga Kimeta */
+#genjitsu-de{
+    width: 280px;
+}
+/* Genocide Online ~Playtime Diary of an Evil Young Girl~ */
+#genocide-online{
+    width: 250px;
+}
+/* Gogo Kyuu Ji, Veranda Goshi no Megami Senpai wa Boku dake no Mono */
+#gogo-kyuu{
+    width: 250px;
+}
+/* Heat The Pig Liver */
+#heat-pig{
+    width: 220px;
+}
+/* Her Majesty's Swarm */
+#majesty-swarm{
+    width: 220px;
+}
+/* Hiota no Kanojo ga Ore no Motteru Eroge ni Kyoumi Shinshin Nanda ga…… */
+#hiota-no-kanojo{
+    width: 280px;
+}
+/* How Could Could You Like Another Girl When You Already Have A Cute Fiancee Like Me? */
+#how-could-you{
+    width: 250px;
+}
+/* I Became Friends with the Second Cutest Girl In my Class */
+#second-cutest-girl{
+    width: 240px;
+}
+/* I Cut Off the Exes That Ridiculed Me */
+#cut-off-the-exes{
+    width: 210px;
+}
+/* I Have A Rejuvenated Ex-wife In My Class */
+#rejuvenated{
+   width: 230px;
+}
+/* I Know That After School, The Saint More Than Just Noble */
+#saint-noble{
+    width: 250px;
+}
+/* I Started Working As A Lover Agent, And For Some Reason, I’m Receiving Requests From Beauties */
+#lover-agent{
+    width: 230px;
+}
+/* I’m Having Trouble With a High School Girl I Meet on the Commuter Train Who for Some Reason Has Taken a Liking to Me */
+#commuter-train{
+    width: 250px;
+}
+/* Im In Love With The Villainess */
+#in-love-villainess{
+    width: 220px;
+}
+/* In The Land Of Leadale */
+#leadale{
+    width: 250px;
+}
+/* Incubus Banishment */
+#incubus-banishment{
+    width: 200px;
+}
+/* Inkyara na Ore to Ichatsukitai tte Maji kayo…  */
+#inkyara{
+    width: 300px;
+}
+/* It Seems That Takane, the Current Girlfriend, Definitely Doesn't Want to Lose to the Ex-girlfriend */
+#takane{
+    width: 250px;
+}
+/* It Turns Out That I Have A Fiancee, But She Is The Famous Villainess Of The School. What Should I Do? */
+#famous-villainess{
+    width: 300px;
+}
+/* Kibishii Onna Joushi ga Koukousei ni Modottara Ore ni Dere Dere suru Riyuu */
+#kibishii-onna{
+    width: 250px;
+}
+/* Kimi wa Boku no Koukai */
+#kimi-koukai{
+    width: 250px;
+}
+/* Kimi wa Hontouni Boku no Tenshi nano ka */
+#kimi-wa-hontouni{
+    width: 250px;
+}
+/* Kuma Kuma Kuma Bear */
+#kuma{
+    width: 220px;
+}
+/* Kurasu no Daikiraina Joshi to Kekkon Suru Koto ni Natta */
+#kurasu-no{
+    width: 220px;
+}
+/* Life is a Mess Ever Since My Mother Won an Ero-Novel Grand Prize */
+#ero-novel-grandprize{
+    width: 240px;
+}
+/* Lonely Me And The Lonely Caring Goddess */
+#lonely-me{
+    width: 230px;
+}
+/* Love Advice From A Childhood Friend */
+#love-advice{
+    width: 200px;
+}
+/* Magic Knights Of The Old Ways */
+#old-ways{
+    width: 220px;
+}
+/* Magical ★ Explorer */
+#magical{
+    width: 220px;
+}
+/* My Wife In The Web Game Is A Popular Idol */
+#wife-popular-idol{
+    width: 250px;
+}
+/* No Game No Life */
+#no-game{
+    width: 180px;
+}
+/* Otome Game no Heroine de Saikyou Survival */
+#otome-game{
+    width: 230px;
+}
+/* Prove your Eternal Love */
+#prove-eternal{
+    width: 250px;
+}
+/* Reborn Girl Starting A New Life In Another World As a Seventh Daughter */
+#seventh-daughter{
+    width: 280px;
+}
+/* Rebuild World */
+#rebuild{
+    width: 160px;
+}
+/* Reincarnated As A Sword */
+#sword{
+    width: 260px;
+}
+/* ROLL OVER AND DIE */
+#roll-over{
+    width: 250px;
+}
+/* Saving 80,000 Gold In Another World For My Retirement */
+#Gold80{
+    width: 200px;
+}
+/* Scp Foundation: Iris Through The Looking Glass */
+#scp{
+    width: 280px;
+}
+/* She Professed Herself Pupil Of The Wiseman */
+#pupil-wiseman{
+    width: 250px;
+}
+/* She's The Cutest... But We're Just Friends! */
+#cutest-friends{
+    width: 270px;
+}
+/* Shinwa Densetsu no Eiyuu no Isekaitan */
+#densetsu{
+    width: 200px;
+}
+/* So i'm a spider, So What? */
+#spider-so-what{
+    width: 200px;
+}
+/* Sodachi Zakari no Oshiego ga Yakeni Emoi */
+#sodachi{
+    width: 250px;
+}
+/* Spy Classroom */
+#spy{
+    width: 150px;
+}
+/* Sword Art Online: Progressive */
+#progressive{
+    width: 200px;
+}
+/* Takane no Hana */
+#takane{
+    width: 180px;
+}
+/* The Demon Sword Master of Excalibur Academy */
+#demon-sword-master{
+    width: 250px;
+}
+/* The Detective Is Already Dead */
+#detective-dead{
+    width: 200px;
+}
+/* The Dungeon Harem I Built With My Slave Elf */
+#dungeon-harem{
+    width: 270px;
+}
+/* The Eminence In Shadow */
+#eminence{
+    width: 250px;
+}
+/* The Executioner And Her Way Of Life */
+#executioner{
+    width: 220px;
+}
+/* The Exiled Royal Architect Develops An Island With Magic Construction Equipment And Fluffy Animals */
+#exiled-royal-alchemist{
+    width: 250px;
+}
+/* The Gal Is Sitting Behind Me, And Loves Me */
+#gal-behind-me{
+    width: 270px;
+}
+/* The Magical Revolution Of The Reincarnated Princess And The Genius Young Lady */
+#magical-revolution{
+    width: 240px;
+}
+/* The NPC's In This Village Sim Game Must Be Real! */
+#village-sim{
+    width: 300px;
+}
+/* The Progress of Yuri is Especially Fast Before the Deadline */
+#yuri-deadline{
+    width: 250px;
+}
+/* The Vexations Of Shut-in Vampire Princess */
+#vexations{
+    width: 250px;
+}
+/* The Weakest Tamer Began A Journey To Pick Up Trash */
+#weakest-tamer{
+    width: 300px;
+}
+/* Tonari no Kimi de Atama ga Ippai */
+#tonari-ippai{
+    width: 220px;
+}
+/* Too Many Losing Heroines! */
+#too-many{
+    width: 300px;
+}
+/* Two As One Princesses */
+#two-as-one{
+    width: 250px;
+}
+/* Until My Girl Friend Who Said, "Let’s Be Friends Forever, Okay?" Stops Being Friend. */
+#girl-friend{
+    width: 270px;
+}
+/* Villainess: Reloaded! BLOWING AWAY BAD ENDS with Modern Weapons */
+#reloaded{
+    width: 250px;
+}
+/* VTuber Legend - How I Went Viral after Forgetting to Turn Off My Stream */
+#vtuber-legend{
+    width: 250px;
+}
+/* Warlords Of Sigrdrifa: Rusalka */
+#rusalka{
+    width: 250px;
+}
+/* Watashi ga Koibito ni Nareru Wakenaijan, Muri Muri! (*Muri Janakatta!?) */
+#watashi-ga{
+    width: 250px;
+}
+/* Yayoi Can’t Hide Her Secrets */
+#yayoi{
+    width: 230px;
+}
+/* You Are the Daughter of My First Love */
+#daughter-first-love{
+    width: 250px;
+}
+/* You Like Me, Don't You? */
+#dating-try{
+    width: 300px;
+}
+/* Yousei Bishoujo ga Nounai de Tasuke wo Motometekurundaga? */
+#yousei-bishoujo{
+    width: 280px;
+}
+/* Yumemiru Danshi wa Genjitsushugisha */
+#dreaming-realist{
+    width: 250px;
+}
+/* About the Reckless Girl Who Kept Challenging a Reborn Man Like Me */
+#reckless-girl{
+    width: 250px;
+}
+/* Christmas Comes Not For Us */
+#not-for-us{
+    width: 230px;
+}
+/* Good-bye Sengen */
+#sengen{
+    width: 180px;
+}
+/* I Hold Your Voice Alone, Under The Starry Sky */
+#voice-alone{
+    width: 300px;
+}
+/* Is A Girlfriend Who Can’t Say “I Love You” No Good? Houkage-san Reads Light Novels Too Much */
+#cant-say{
+    width: 300px;
+}
+/* Koroshiya-san to Hajimeru Icha Love Shinkon Seikatsu */
+#koroshiya{
+    width: 250px;
+}
+/* Sekaiichi Kantan na Heroine no Kouryaku Shikata */
+#sekaiichi{
+    width: 250px;
+}
+/* Strange Memories With You, My Dear */
+#strange-memories{
+    width: 250px;
+}
+/* Taking Care of My Younger Sister’s Too Naive of a Beautiful Yankee High Schooler, Then Falling in Love */
+#too-naive{
+    width: 330px;
+}
+/* The Reward For Keeping Quiet Was S*x With Girls Dressed As Men */
+#keeping-quiet{
+    width: 250px;
+}
+/* The Tunnel To Summer, The Exit Of Goodbyes */
+#tunnel-summer{
+    width: 250px;
+}
+/* Wait For Me Yesterday in Spring */
+#wait-for{
+    width: 250px;
+}
+/* Yomei Ichinen no Kimi ga Boku ni Nokoshite Kureta Mono */
+#yomei{
+    width: 250px;
+}
+/* Zettai ni Derete wa Ikenai Tsundere */
+#zettai{
+    width: 250px;
+}
+/* The Academy’s Weakest Became A Demon-Limited Hunter Chapter */
+#demon-limited{
+    width: 250px;
+}
+/* Vtuber no Ending, Kaitorimasu. */
+#vtuber-no{
+    width: 200px;
+}
+/* Kimi wo Ushinaitakunai Boku to, Boku no Shiawase wo Negau Kimi */
+#kimi-wo{
+    width: 250px;
+}
+/* Traveling with a Beautiful Girl */
+#traveling{
+    width: 250px;
+}
+/* Warui ko no susume */
+#warui{
+    width: 200px;
+}
+/* A Reincarnation Romantic Comedy Of A Hero And A Witch */
+#hero-and-witch{
+    width: 250px;
+}
+/* I Was Caught up in a Hero Summoning, but That World Is at Peace */
+#peace{
+    width: 250px;
+    }
+/* What Happens If a Friend's Older Sister Falls in Love With a Gloomy Person */
+#gloomy{
+    width: 250px;
+    }
+/* Lady Savage Fang – History’s Greatest Mercenary Reincarnates as the World’s Cruelest Lady and Becomes Peerless in this Second Life */
+#lady-savage{
+    width: 300px;
+}
+/* Kawaii Onnanoko ni Kouryaku Sareru no Wa Suki desu ka */
+#kawaii{
+    width: 250px;
+}
+/* What If I Told Tomori-san, The Girl Who’s Cold Only Towards Me, That I Knew Her Secret Account */
+#tomori-san{
+    width: 300px;
+}
+/* Boku no Kanojo Sensei */
+#kanojo-sensei{
+    width: 250px;
+}
+/* When Menhera Changes into her Apron */
+#menhera{
+    width: 250px;
+}
+/* Paradise Noise */
+#paradise-noise{
+    width: 200px;
+}
+/* At The Northern Port */
+#northern-port{
+    width: 300px;
+}
+/* Himegi-san a Bride from the Future Begs Me to Confess My Love to Her Again */
+#himegi-san{
+    width: 250px;
+}
+/* Akuyaku Reijou wa Danna-sama wo Yasesasetai */
+#akuyaku{
+    width: 250px;
+}
+/* What Happens If You Saved A High School Girl Who Was About To Jump Off */
+#what-happens{
+    width: 250px;
+}
+/* The Delinquent Shimizu-san Sitting Next to Me Has Dyed Her Hair Black */
+#shimizu-san{
+    width: 250px;
+    }
+/* Buaisou */
+#Buaisou{
+    width: 300px;
+}
+/* What's under Kamiyama-san's Paper Bag */
+#paper{
+    width: 250px;
+    }
+/* Alya Sometimes Hides Her Feelings in Russian */
+#alya{
+    width: 250px;
+}
+/* The Classmate Who Is Adored by Everyone Smiles Teasingly Only at Me */
+#Teasingly{
+    width: 300px;
+}
+/* My Plain-looking Fiance is Secretly Sweet with Me */
+#plain{
+    width: 250px;
+}
+/* I'm in Love with the Villainess - She's so Cheeky for a Commoner */
+#cheeky{
+    width: 300px;
+}
+/* Ranobe Mo Ore Mo Sukina Gyaru */
+#ranobe{
+    width: 260px;
+    }
+/* Redoing My Youth A Second Time, A Cheery Summer With A Lonely Girl */
+#redoing{
+    width: 300px;
+}
+/* Naze ka S-kyuu Bijo-tachi no Wadai ni Ore ga Agaru ken */
+#naze{
+    width: 250px;
+}
+/* It Seems That I, Who Have amnesia, Have Three Girlfriends */
+#amnesia{
+    width: 250px;
+    }
+/* Please Tell Me How to Remember Love */
+#please{
+    width: 250px;
+    }
+/* Zenryoku Kaihi Flag-chan! */
+#kaihi{
+    width: 200px;
+}
+/* On My Way Home From Work, My Beautiful Single Boss Asked Me to Do Something for Her.  */
+#on{
+    width: 300px;
+}
+/* Tale of Vampire Princess Astrid */
+#astrid{
+    width: 250px;
+}
+/* Tonari no Seki no Moto Idol wa, Ore no Produce ga nai to Ikite Ikenai */
+#Tonari-seki{
+    width: 300px;
+}
+/* Koi wa Yozora wo Watatte */
+#koi{
+    width: 250px;
+}
+/* Izure Shinwa no Ragnarok */
+#izure{
+    width: 230px;
+}
+/* An Introvert's Hookup Hiccups */
+#hookup-hiccups{
+    width: 250px;
+}
+* Sex-&-Dungeons */
+#sex{
+    width: 220px;
+}
+/* Spiritual Detective – Touka Fujisaki Never Scoffs at Tragedies  */
+#Spiritual{
+    width: 250px;
+}
+/* Shaberanai Kurusu-san Kokoro no Naka wa Suki de Ippai */
+#Shaberanai{
+    width: 250px;
+}
+/* The Story of a Manga Artist Who Was Imprisoned by a Strange High School Girl */
+#manga-artist{
+    width: 250px;
+}
+/* One Day, Out of The Blue, I Got a Gal's Forgiving Wife */
+#one-day{
+    width: 250px;
+}
+/* Someday, for You Who Lived Here or Forever, for You Who Stay There */
+#Someday{
+    width: 250px;
+}
+/* The Main Heroines are Trying to Kill Me */
+#kill-me{
+    width: 250px;
+}
+/* Fated to Be Loved by Villains */
+#fated{
+    width: 230px;
+}
+/* The Girls Who Traumatized Me Keep Glancing At Me, But Alas, It’s Too Late */
+#keep{
+    width: 300px;
+}
+/* Saenai boku ga kimi no heya de shite iru koto o kurasumeito wa daremoshiranai */
+#saenai{
+    width: 250px;
+}
+/* 6 Main Heroines Who Absolutely Want to Monopolize Me */
+#six{
+    width: 250px;
+}
